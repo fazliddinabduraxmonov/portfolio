@@ -1,0 +1,1294 @@
+*{
+    margin: 0 auto;
+    padding: 0%;
+    box-sizing: border-box;
+}
+button:hover,i:hover{
+    cursor: pointer;
+}
+
+#site{
+
+}
+
+#ham-menu{
+    display: none !important;
+}
+#header{
+    background: url(../img/hfon.jpg) no-repeat left top;
+    background-size: cover;
+    height: 100vh;
+}
+.hfon{
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+    padding-bottom: 2%;
+}
+.menu{
+    height: 100px;
+    width: 100%;
+}
+.logo{
+    float: left;
+    width: 48%;
+    height: 100%;
+}
+.logo img{
+    width: 20%;
+    margin-left: 18%;
+    height: 100%;
+}
+.links{
+    width: 50%;
+    float: left;
+    height: 100%;
+}
+.links ul{
+    height: 100%;
+    list-style: none;
+    width: 100%;
+}
+.links ul li{
+    width: 22%;
+    float: left; 
+    line-height: 96px;
+    text-align: center;
+    margin-left: 2%;
+}
+.links ul li a{
+    color: white;
+    font-size: 15pt;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+.links ul li a:hover{
+    color: #fc635e;
+    text-decoration: underline;
+    text-decoration-thickness: 6px;
+}
+
+.left{
+    margin-top: 25vh;
+    margin-left: 10%;
+    display: inline;
+    float: left;
+}
+.right{
+    float: left;
+    margin-top: 25vh;
+    margin-left: 2%;
+}
+
+.hfon h1{
+    margin-top: 21vh;
+    font-size: 37pt;
+    margin-left: 2%;
+    float: left;
+    display: block;
+    color: white;
+    width: 58%;
+    text-align: center;
+}
+.hfon h1 span{
+    color: #fc635e;
+}
+.hfon p{
+    width: 54%;
+    color: white;
+    font-weight: 400;
+    font-size: 10.7pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.first{
+    padding: 1% 1.7%;
+    display: block;
+    color: #fc635e;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 2px solid #fc635e;
+    font-size: 13pt;
+    font-weight: 650;
+    margin-top: 5vh;
+    background: none;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+.first:hover{
+    background: #fc635e;
+    color: white;
+}
+.type1{
+    margin-top: 30vh;
+    border: 2px solid #fc635e;
+    background: #fc635e;
+    color: white;
+    border-radius: 100%;
+    padding: 0.3%;
+    margin-left: 49%;
+    font-size: 15pt;
+}
+
+@media only screen and (min-width:1008px) and (max-width:1348px){
+    .type1{
+        margin-top: 22vh;
+    }
+}
+
+.type1:hover{
+    color: #fc635e;
+    background: none;   
+}
+
+#receive{
+    background: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    border: 1px solid white;
+}
+#receive h1{
+    color: #868686;
+    border-bottom: 1.5px solid #868686;
+    display: inline;
+    font-size: 29pt;
+    margin-top: 1%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+#receive h1 span{
+    color: #fc635e;
+}
+.rec-p{
+    width: 47%;
+    color: #868686;
+    font-size: 14pt;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 8%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cards{
+    width: 80%;
+    margin-bottom: 8%;
+}
+.card{
+    width: 22.5%;
+    float: left;
+    margin-left: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 250px;
+}
+.card hr{
+    width: 25%;
+    margin-bottom: 7%;
+}
+.card h3{
+    margin-top: 6%;
+    color: #868686;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 1%;
+}
+.card p{
+    text-align: center;
+    color: #868686;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.type2{
+    border: 2px solid #fc635e;
+    background: none;
+    color: #fc635e;
+    border-radius: 100%;
+    padding: 20%;
+    font-size: 15pt;
+    margin-bottom: 0.5%;
+    
+}
+.type2:hover{
+    color: white;
+    background: #fc635e;   
+}
+
+#expand{
+    background: url(../img/exfon.png) no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 12%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.iqtibos{
+    border: 5px solid #3f5164;
+    width: 80%;
+    height: 50vh;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.iqtibos h2{
+    color: white;
+    font-size: 25pt;
+    width: 85%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 5%;
+}
+.iqtibos h2 span{
+    color: #fc635e;
+}
+.iqtibos h4{
+    font-size: 17pt;
+    width: 40%;
+    text-align: center;
+    color: white;
+    margin-top: 5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.exbut{
+    margin-top: 20vh;
+    padding: 15%;
+}
+
+#process{
+    background: white;
+    height: 100vh;
+    padding-top: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#process h2{
+    color: #868686;
+    display: inline;
+    border-bottom: 1.5px solid #868686;
+    font-size: 25pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#process .pro-title{
+    margin-top: 2%;
+    width: 40%;
+    text-align: center;
+    color: #868686;
+}
+
+.graphic{
+    margin-top: 6%;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    box-shadow: 1px 0px 10px 5px #3f5164 inset;
+    padding: 2%; 
+    position: relative;
+}
+.graphic img{
+    width: 90%;
+}
+.step1{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #868686;
+    box-shadow: 1px 2px 8px 3px #868686;
+    padding-top: 4%;
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to bottom,rgba(10,10,10,0.05),rgba(10,10,10,0.1));
+}
+.step1:hover{
+    transform: scale(1.2);
+}
+.step1 h5{
+    margin-top: -80%;
+    display: inline;
+    text-transform: uppercase;
+    color: #868686;
+    border-bottom: 1px solid #868686;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14pt;
+}
+.step1 p{
+    width: 69%;
+    margin-top: 5%;
+    color: #868686;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10pt;
+    text-align: center;
+}
+.step2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #868686;
+    box-shadow: 1px 2px 8px 3px #868686;
+    padding-top: 4%;
+    width: 22%;
+    background-image: linear-gradient(to bottom,rgba(10,10,10,0.05),rgba(10,10,10,0.1));
+    margin-left: 3%;
+}
+.step2:hover{
+    transform: scale(1.2);
+}
+.step2 h5{
+    margin-top: -80%;
+    text-transform: uppercase;
+    color: #868686;
+    border-bottom: 1px solid #868686;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14pt;
+}
+.step2 p{
+    width: 69%;
+    margin-top: 5%;
+    color: #868686;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10pt;
+    text-align: center;
+}
+.step3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #868686;
+    box-shadow: 1px 2px 8px 3px #868686;
+    padding-top: 4%;
+    width: 22%;
+    background-image: linear-gradient(to bottom,rgba(10,10,10,0.05),rgba(10,10,10,0.1));
+    margin-left: 3%;
+}
+.step3:hover{
+    transform: scale(1.2);
+}
+.step3 h5{
+    margin-top: -80%;
+    text-transform: uppercase;
+    color: #868686;
+    border-bottom: 1px solid #868686;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14pt;
+}
+.step3 p{
+    width: 69%;
+    margin-top: 5%;
+    color: #868686;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10pt;
+    text-align: center;
+}
+.step4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #868686;
+    box-shadow: 1px 2px 8px 3px #868686;
+    padding-top: 4%;
+    width: 22%;
+    height: 290px;
+    background-image: linear-gradient(to bottom,rgba(10,10,10,0.05),rgba(10,10,10,0.1));
+    margin-left: 3%;
+}
+.step4:hover{
+    transform: scale(1.2);
+}
+.step4 h5{
+    margin-top: -80%;
+    text-transform: uppercase;
+    color: #868686;
+    border-bottom: 1px solid #868686;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14pt;
+}
+.step4 p{
+    width: 69%;
+    margin-top: 3%;
+    color: #868686;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10pt;
+    text-align: center;
+}
+.pro-down{
+    margin-top: 10vh;
+    border: 2px solid #fc635e;
+    background: none;
+    color: #fc635e;
+    border-radius: 100%;
+    padding: 0.3%;
+    margin-left: 49%;
+    font-size: 15pt;
+    margin-bottom: 0.5%;
+    padding: 15%;
+}
+.pro-down:hover{
+    color: white;
+    background: #fc635e;   
+}
+
+#we-do{
+    width: 100%;
+    height: 100vh;
+    background-color: #f2f2f2;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#we-do h1{
+    text-transform: uppercase;
+    color: #868686;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17pt;
+    border-bottom: 1px solid #868686;
+    display: inline;
+}
+#we-do h1 span{
+    color: #fc635e;
+}
+.todo{
+    width: 90%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+}
+.col1{
+    width: 50%;
+    padding-top: 2%;
+}
+.col1 h2{
+    border-left: 6px solid #fc635e;
+    text-indent: 7px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17pt;
+    text-transform: uppercase;
+    color: #868686;
+}
+.col1 p{
+    margin-top: 4%;
+    color: #868686;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.col1 .todo-btn{
+    padding: 1.5% 2.3%;
+    display: block;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 2px solid #fc635e;
+    font-size: 13pt;
+    font-weight: 650;
+    margin-top: 7%;
+    background: #fc635e;
+    border-radius: 10px;
+    transition: all 0.3s;
+    margin-left: 0;
+}
+.col1 .todo-btn:hover{
+    background: none;
+    color: #fc635e;
+}
+
+.col2{
+    width: 50%;
+    margin-top: -3%;
+}
+.col2 .comp{
+    position: absolute;
+    z-index: 0;
+    margin-left: 6%;
+    width: 35%;
+}
+.col2 .mac{
+    position: absolute;
+    z-index: 1;
+    margin-top: 14.5%;
+    width: 25%;
+}
+.col2 .ipad{
+    position: absolute;
+    z-index: 1;
+    margin-left: 28%;
+    margin-top: 14%;
+    width: 10%;
+}
+#we-do .we-down{
+    margin-top: 34vh;
+    margin-bottom: 0.5%;
+    margin-left: 49%;
+}
+
+#advertise{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#advertise .cols{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+}
+#advertise .col1 img{
+    width: 100%;
+    margin-top: -2%;
+}
+.col2{
+    width: 48%;
+    padding-top: 5%;
+}
+.col2 h2{
+    border-right: 6px solid #fc635e;
+    padding-right: 2%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17pt;
+    text-transform: uppercase;
+    color: #868686;
+    text-align: right;
+}
+.col2 p{
+    margin-top: 4%;
+    color: #868686;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: right;
+}
+.col2 .adv-btn{
+    padding: 0.7% 1.4%;
+    display: block;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 2px solid #fc635e;
+    font-size: 13pt;
+    font-weight: 650;
+    margin-top: 3%;
+    background: #fc635e;
+    border-radius: 10px;
+    transition: all 0.3s;
+    margin-left: 0;
+    float: right;}
+.col2 .adv-btn:hover{
+    background: none;
+    color: #fc635e;
+}
+.adv-down{
+    margin-top: 30vh; 
+    margin-left: 49%;
+    padding: 18%;
+}
+
+#marketing{
+    width: 100%;
+    height: 100vh;
+    background: #f2f2f2;
+    padding-top: 7%;
+    margin-top: 1.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#marketing .cols{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+}
+#marketing .col1{
+    width: 50%;
+    padding-top: 5%;
+}
+#marketing .col1 h2{
+    border-left: 6px solid #fc635e;
+    text-indent: 7px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17pt;
+    text-transform: uppercase;
+    color: #868686;
+}
+#marketing .col1 p{
+    margin-top: 4%;
+    color: #868686;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#marketing .col1 .market-btn{
+    padding: 1.5% 2.3%;
+    display: block;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 2px solid #fc635e;
+    font-size: 13pt;
+    font-weight: 650;
+    margin-top: 7%;
+    background: #fc635e;
+    border-radius: 10px;
+    transition: all 0.3s;
+    margin-left: 0;
+}
+#marketing .col1 .market-btn:hover{
+    background: none;
+    color: #fc635e;
+}
+#marketing .col2 img{
+    width: 100%;
+}
+#marketing .col2{
+    width: 50%;
+}
+.market-down{
+    margin-left: 49%;
+    margin-top: 25vh;
+    padding: 15%;
+}
+
+#portfolio{
+    height: 100vh; 
+    width: 100%;
+    padding-top: 1%;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#portfolio h1{
+    color: #868686;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-bottom: 1px solid #868686;
+}
+#portfolio .iframes{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 1%;
+}
+.iframes img{
+    width: 30%;
+    float: left;
+    margin: 1%;
+    box-shadow: 0.5px 0.5px 2px 3px #868686;
+}
+.iframes img:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+.iframes button:hover{
+    background-image: linear-gradient(to bottom,rgb(0,0,0,0.1),rgb(0,0,0,0.5));
+}
+.ytube{
+    position: absolute;
+    margin-left: -66%;
+    margin-top: 8%;
+    padding: 0.5% 1.2%;
+    background: #fc635e;
+    border: 1px solid #fc635e;
+    color: white;
+    border-radius: 10px;
+}
+.bowl{
+    position: absolute;
+    margin-top: 8%;
+    padding: 0.5% 1.2%;
+    background: #fc635e;
+    border: 1px solid #fc635e;
+    color: white;
+    border-radius: 10px;
+}
+.meal{
+    position: absolute;
+    margin-left: 68%;
+    margin-top: 8%;
+    padding: 0.5% 1.2%;
+    background: #fc635e;
+    border: 1px solid #fc635e;
+    color: white;
+    border-radius: 10px;
+}
+.dance{
+    position: absolute;
+    margin-left: -50%;
+    margin-top: 24%;
+    padding: 0.5% 1.2%;
+    background: #fc635e;
+    border: 1px solid #fc635e;
+    color: white;
+    border-radius: 10px;
+}
+.book{
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 24%;
+    padding: 0.5% 1.2%;
+    background: #fc635e;
+    border: 1px solid #fc635e;
+    color: white;
+    border-radius: 10px;
+}
+.portfolio-btn{
+    padding: 0.7% 1.4%;
+    display: block; 
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 2px solid #fc635e;
+    font-size: 13pt;
+    font-weight: 650;
+    margin-top: 2%; 
+    background: #fc635e;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+.portfolio-btn:hover{
+    background: none;
+    color: #fc635e;
+}
+.portfolio-down{
+    margin-top: 5vh;
+    margin-left: 48.5%;
+    padding: 15%;
+}
+
+#footer{
+    width: 100%;
+    height: 50vh;
+    padding-top: 2%;
+    background-color: #3f5164;
+}
+.social{
+    width: 48%;
+    float: left;
+    height: 95%;
+    margin-left: 1%;
+    box-shadow: 0.5px 0.5px 30px 5px #868686;
+    background-image: linear-gradient(to bottom,rgb(0,0,0,0.05),rgb(0,0,0,0));
+}
+.social h4{
+    color: antiquewhite;
+    font-size: 15pt;
+    margin-left: 1%;
+}
+.social ul{
+    list-style: disc;
+    color: white;
+    margin-top: 1%;
+}
+.social ul li{
+    margin-bottom: 1%;
+    margin-left: 10%;
+}
+.social ul li a{
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 13pt;
+    color: aliceblue;
+}
+.social ul li a:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
+.social i{
+    margin: 1%;
+    font-size: 17pt;
+}
+.social .fa-youtube-play{
+    color: red;
+}
+.social .fa-telegram{
+    color: rgb(0,128,64);
+    font-size: 16.5pt;
+}
+.social .fa-facebook-square{
+    color: rgb(0,0,240);
+}
+
+.contact{
+    width: 48%;
+    float: left;
+    height: 95%;
+    margin-left: 1%;
+    box-shadow: 0.5px 0.5px 30px 5px #868686;
+    background-image: linear-gradient(to bottom,rgb(0,0,0,0.05),rgb(0,0,0,0));
+}
+.contact p{
+    color: antiquewhite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14pt;
+    margin: 1% 2%;
+}
+.contact input[type=email]{
+    height: 35px;
+    width: 65%;
+    margin-left: 2%;
+}
+.contact textarea{
+    margin-left: 2%;
+    width: 65%;
+}
+.contact input[type=submit]{
+    padding: 0.5% 1.5%;
+    margin-left: 2%; 
+    margin-top: 9%;
+    position: absolute;
+    color: white;
+    border: 2px solid #fc635e;
+    background: #fc635e;
+    transition: all 0.2s ease-in;
+    border-radius: 15px 15px 15px 0px;
+    width: 12%;
+}
+.contact input[type=submit]:hover{
+    color: #fc635e;
+    background: none;
+    cursor: pointer;
+}
+
+
+
+
+/* start modals */
+
+.modal-header{
+    position: absolute;
+    top: 5%;
+    width: 100%;
+    background-image: linear-gradient(to right,rgb(0,0,0,0.88),rgb(0,0,0,0.88));
+    color: white;
+    height: 90vh;
+    padding-top: 2%;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+.mhbolim{
+    display: block;
+    width: 90%;
+}
+.mhorder{
+    position: absolute;
+    width: 70%;
+    height: 60vh;
+    top: 10%;
+    display: none;
+}
+.mhorder label{
+    display: inline-block;
+    padding: 1% 0;
+    width: 20%;
+    margin-left: 15%;
+    font-size: 15pt;
+    font-weight: 700;
+    color: antiquewhite;
+    text-align: right;
+    margin-top: 2%;
+}
+.mhorder input[type = text]{
+    margin-left: 3%;
+    border: 1.5px solid #868686;
+    box-shadow: 1px 1px 10px 2px #868686 inset;
+    height: 35px;
+    width: 40%;
+    border-radius: 10px;
+    background: none;
+    
+    padding-left: 1%;
+    font-size: 13pt;
+}
+.mhorder input[type = text]::placeholder{
+    color: #868686;;
+}
+.mhorder input[type = text]:focus{
+    box-shadow: 1px 1px 15px 2px #868686;
+}
+.mhorder select[name = service]{
+    width: 30%;
+    margin-left: 3%;
+    border-radius: 10px;
+    height: 35px;
+    margin-right: 20%;
+    background: none;
+    box-shadow: 1px 1px 15px 2px #868686 inset;
+    color: antiquewhite;
+    font-size: 14pt;
+}
+.mhorder select option{
+    background: #868686;
+    color: antiquewhite;
+}
+.mhorder select[name = type]{
+    width: 30%;
+    margin-left: 3%;
+    border-radius: 10px;
+    height: 35px;
+    margin-right: 20%;
+    background: none;
+    box-shadow: 1px 1px 15px 2px #868686 inset;
+    color: antiquewhite;
+    font-size: 14pt;
+}
+.mhorder select option{
+    background: #868686;
+    color: antiquewhite;
+}
+.mhorder input[type = tel]{
+    margin-left: 3%;
+    border: 1.5px solid #868686;
+    box-shadow: 1px 1px 10px 2px #868686 inset;
+    height: 35px;
+    width: 40%;
+    border-radius: 10px;
+    background: none;
+    color: antiquewhite;
+    margin-right: 20%;
+    font-size: 13pt;
+    padding-left: 1%;
+}
+.mhorder input[type = tel]::placeholder{
+    color: #868686;;
+}
+.order-btn{
+    margin-left: 37%;
+    margin-top: 4%;
+    padding: 1% 2%;
+    border: 2px solid #fc635e;
+    background-color: #fc635e;
+    color: antiquewhite;
+    border-radius: 30px 0 30px 0;
+    font-size: 15pt;
+}
+.order-btn:hover{
+    cursor: pointer;
+    color: #fc635e;
+    background-color: white;
+}
+
+.modal-header .fa-remove{
+    margin-left: 96%;
+    font-size: xx-large;
+}
+
+.modal-header .mhtitle{
+    font-size: 25pt !important;
+    text-align: center;
+}
+.modal-header .fa-certificate{
+    margin-right: 3%;
+}
+.modal-header .fa-certificate:hover{
+    cursor: default;
+}
+.modal-header .fa-money{
+    font-size: 25pt;
+    margin-top: 8%;
+    margin-left: 24%;
+    margin-right: 5%;
+}
+.modal-header p{
+    font-size: 25pt;
+    color: antiquewhite;
+}
+.modal-header .mhdesign{
+    margin-top: 5%;
+    border-radius: 5px;
+    margin-right: 0.5%;
+    float: left;
+    width: 24%;
+    margin-left: 1%;
+    box-shadow: 1px 1px 150px 10px rgb(103,103,103) inset;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    transition: all 2s;
+    
+}
+.modal-header .mhdesign:hover{
+    box-shadow: 1px 1px 150px 10px rgb(103,103,103);
+}
+.modal-header .mhfront{
+    width: 24%;
+    border-radius: 5px;
+    margin-right: 0.5%;
+    float: left;
+    margin-top: 5%;
+    box-shadow: 1px 1px 150px 10px rgb(103,103,103) inset;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    transition: all 2s;
+}
+.modal-header .mhfront:hover{
+    box-shadow: 1px 1px 150px 10px rgb(103,103,103);
+}
+.modal-header .mhback{
+    width: 24%;
+    border-radius: 5px;
+    margin-right: 0.5%;
+    float: left;
+    margin-top: 5%;
+    box-shadow: 1px 1px 150px 10px rgb(103,103,103) inset;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    transition: all 2s;
+}
+.modal-header .mhback:hover{
+    box-shadow: 1px 1px 150px 10px rgb(103,103,103);
+}
+.modal-header .mhfull{
+    width: 24%;
+    border-radius: 5px;
+    margin-right: 0.5%;
+    float: left;
+    margin-top: 5%;
+    box-shadow: 1px 1px 150px 10px rgb(103,103,103) inset;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    transition: all 2s;
+}
+.modal-header .mhfull:hover{
+    box-shadow: 1px 1px 150px 10px rgb(103,103,103);
+}
+.mhbutton{
+    padding: 1% 2%;
+    margin-top: 2%;
+    border-radius: 30px 0 30px 0;
+    background: #fc635e;
+    color: white;
+    border: 2px solid #fc635e;
+    font-size: 13pt;
+    transition: all 0.2s;
+    font-weight: 700;
+}
+.mhbutton:hover{
+    background: white;
+    color: #fc635e;
+}
+
+
+.we-modal{
+    box-shadow: 1px 1px 15px 2px #868686;
+    width: 50%;
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 5%;
+    background-image: linear-gradient(to bottom,rgb(0,0,0,0.7),rgb(0,0,0,0.7));
+    height: 60vh;
+    z-index: 10;
+    padding-top: 1%;
+    border-radius: 15px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+.we-modal h1{
+    display: inline;
+    border-bottom: 2px solid #fc635e !important;
+    margin-bottom: 2%;
+    color: white !important;
+}
+.we-modal p{
+    color: white;
+    text-align: center;
+    width: 95%;
+}
+.we-modal .we-modbtn{
+    margin-top: 1%;
+    width: 15%;
+    padding: 1% 0;
+    border: 2px solid #fc635e;
+    background-color: #fc635e;
+    color: antiquewhite;
+    border-radius: 30px 30px 0 0;
+    font-size: 12pt;
+}
+.we-modal .we-modbtn:hover{
+    background: none;
+    color: #fc635e;
+}
+
+.adv-modal{
+    box-shadow: 1px 1px 15px 2px #868686;
+    width: 50%;
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 5%;
+    background-image: linear-gradient(to bottom,rgb(0,0,0,0.7),rgb(0,0,0,0.7));
+    height: 60vh;
+    z-index: 10;
+    padding-top: 1%;
+    border-radius: 15px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+.adv-modal h1{
+    width: 19% !important;
+    border-bottom: 2px solid #fc635e !important;
+    margin-bottom: 2%;
+    color: white !important;
+}
+.adv-modal p{
+    color: white;
+    text-align: center;
+    width: 95%;
+}
+.adv-modal .adv-modbtn{
+    margin-top: 1%;
+    width: 15%;
+    padding: 1% 0;
+    border: 2px solid #fc635e;
+    background-color: #fc635e;
+    color: antiquewhite;
+    border-radius: 30px 30px 0 0;
+    font-size: 12pt;
+}
+.adv-modal .adv-modbtn:hover{
+    background: none;
+    color: #fc635e;
+}
+
+.market-modal{
+    box-shadow: 1px 1px 15px 2px #868686;
+    width: 50%;
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 5%;
+    background-image: linear-gradient(to bottom,rgb(0,0,0,0.7),rgb(0,0,0,0.7));
+    height: 60vh;
+    z-index: 10;
+    padding-top: 1%;
+    border-radius: 15px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+.market-modal h1{
+    width: 22% !important;
+    border-bottom: 2px solid #fc635e !important;
+    margin-bottom: 2%;
+    color: white !important;
+}
+.market-modal p{
+    color: white;
+    text-align: center;
+    width: 95%;
+}
+.market-modal .market-modbtn{
+    margin-top: 1%;
+    width: 15%;
+    padding: 1% 0;
+    border: 2px solid #fc635e;
+    background-color: #fc635e;
+    color: antiquewhite;
+    border-radius: 30px 30px 0 0;
+    font-size: 12pt;
+}
+.market-modal .market-modbtn:hover{
+    background: none;
+    color: #fc635e;
+}
+
+.port-modal{
+    position: absolute;
+    width: 70%;
+    height: 60vh;
+    margin-top: 5%;
+    margin-left: 5%;
+    box-shadow: 1px 1px 15px 3px #868686;
+    border-radius: 50px 0 50px 0;
+    background-image: linear-gradient(to bottom,rgb(0,0,0,0.7),rgb(0,0,0,0.7));
+    display: none; 
+}
+.port-rem{
+    margin-left: 97%;
+    font-size: x-large !important;
+    color: antiquewhite;
+}
+.port-modal label{
+    display: inline-block;
+    padding: 1% 0;
+    width: 15%;
+    margin-left: 15%;
+    font-size: 15pt;
+    font-weight: 700;
+    color: antiquewhite;
+    text-align: right;
+    margin-top: 2%;
+}
+.port-modal input[type = text]{
+    margin-left: 3%;
+    border: 1.5px solid #868686;
+    box-shadow: 1px 1px 10px 2px #868686 inset;
+    height: 35px;
+    width: 40%;
+    border-radius: 10px;
+    background: none;
+    padding-left: 1%;
+    font-size: 13pt;
+}
+.port-modal input[type = text]::placeholder{
+    color: #868686;;
+}
+.port-modal input[type = text]:focus{
+    box-shadow: 1px 1px 15px 2px #868686;
+}
+.port-modal select[name = service]{
+    width: 30%;
+    margin-left: 3%;
+    border-radius: 10px;
+    height: 35px;
+    margin-right: 20%;
+    background: none;
+    box-shadow: 1px 1px 15px 2px #868686 inset;
+    color: antiquewhite;
+    font-size: 14pt;
+}
+.port-modal select option{
+    background: #868686;
+    color: antiquewhite;
+}
+.port-modal select[name = type]{
+    width: 30%;
+    margin-left: 3%;
+    border-radius: 10px;
+    height: 35px;
+    margin-right: 20%;
+    background: none;
+    box-shadow: 1px 1px 15px 2px #868686 inset;
+    color: antiquewhite;
+    font-size: 14pt;
+}
+.port-modal select option{
+    background: #868686;
+    color: antiquewhite;
+}
+.port-modal input[type = tel]{
+    margin-left: 3%;
+    border: 1.5px solid #868686;
+    box-shadow: 1px 1px 10px 2px #868686 inset;
+    height: 35px;
+    width: 40%;
+    border-radius: 10px;
+    background: none;
+    color: antiquewhite;
+    margin-right: 20%;
+    font-size: 13pt;
+    padding-left: 1%;
+}
+.port-modal input[type = tel]::placeholder{
+    color: #868686;;
+}
+.port-btn{
+    margin-left: 37%;
+    margin-top: 4%;
+    padding: 1% 2%;
+    border: 2px solid #fc635e;
+    background-color: #fc635e;
+    color: antiquewhite;
+    border-radius: 30px 0 30px 0;
+    font-size: 15pt;
+}
+.port-btn:hover{
+    cursor: pointer;
+    color: #fc635e;
+    background-color: white;
+}

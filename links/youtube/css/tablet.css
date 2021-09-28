@@ -1,0 +1,188 @@
+@media screen and (min-width:641px) and (max-width:1007px)
+{
+
+    *{
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    #site{
+        width: 100%;
+        overflow: hidden;
+        background: white;
+    }
+
+    #header{
+        width: 100%;
+        background:white;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+    }
+    /* .row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+    } */
+    .logo{
+        width: 30%;
+        padding-left: 1%;
+        margin-top: 0;
+    }
+    .search{
+        float: left;
+        width: 40%;
+        margin-top: 1%;
+        margin-left: -5%;
+    }
+    .icons{
+        width: 20%;
+        padding-right: 2%;
+        margin-top: 1%;
+    }
+    #main{
+        width: 100%;
+    }
+
+    .mainmenu{
+        position: fixed;
+        width: 15%;
+        margin-left: -88%;
+        z-index: 1;
+    }
+    .menu{
+        padding-top: 0%; 
+        max-height: calc(100vh - 4.5rem);
+        overflow-y: auto;
+        overflow-x: hidden;  
+        width: 12%;
+        height: 200px;
+        overflow: hidden;
+        /* position: fixed; */
+        display: block;
+        left: 0;
+        transition: width 0.4s ease-in-out; 
+    }
+    .menu ul{
+        list-style: none;
+        width: 100%;
+        border: none;
+    }
+    .libr{
+        display: block !important;
+    }
+
+    .menu ul li{
+    }
+    .menu ul li a{
+        display: block;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        font-size: 8pt;
+        color: lightslategray;
+        transition: 0.8s all;
+        font-weight: 550;
+        text-align: center; 
+        width: 70%;
+        height: 50px;
+        margin-left: 13%;
+    }
+    .menu ul li a:hover{
+        text-decoration: none;
+        background-color: #ddd;
+    }
+    .menu i{
+        float: left;
+        margin-left: 38%; 
+        margin-top: 1%;
+        margin-right: 50%;
+        color: grey; 
+        font-size: 20pt;   
+    }
+    .secondicon{
+        display: none !important;
+    }
+    .subscribed{
+        display: none !important;
+    }   
+
+    .videos{
+        margin-left: 11%;
+        width: 89%;
+    }
+    .blok{
+        padding-right: 5%;
+    }
+    .videoBlok{
+        width: 45%;
+        height: 100%;
+    }
+    .videoBlok h5{
+        height: none;
+    }
+    .span{
+        margin-top: -6%;
+    }
+    .videoUpload{
+        width: 21%;
+        right: 16%;
+    }
+    .youTV{
+        width: 30%;
+        right: 12%;
+    }
+    .account{
+        width: 35%;
+        display: none;
+    }
+    .account i{
+        font-size:12pt;
+    }
+    .account ul li a{
+        font-size: 12pt;
+    }
+    .channel{
+        padding-top: 0%;
+    }
+    .channel h4{
+        font-size: 13pt;
+        width: 120%;
+        margin-left: 0%;
+        margin-top: 10%;
+    }
+    .channel a{
+        margin-top: 0;
+        margin-left: 0%;
+        font-size: 0.9rem;
+        margin-bottom: 5%;
+    }
+    .channel img{
+        width: 150% !important;
+        margin-top: 100% !important;
+    }
+
+    .subAcc{
+        top: 18% !important;
+    }
+    .subLang{
+        top: 41% !important;
+    }
+    .subCountry{
+        top: 41% !important;
+    }
+    .restMode{
+        top: 94% !important;
+    }
+    .voice{
+        width: 50%;
+        height: 280px;
+        border: 1px solid rgb(190, 190, 190);
+    }
+
+
+
+
+
+}
